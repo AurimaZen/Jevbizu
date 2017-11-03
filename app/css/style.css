@@ -1,0 +1,564 @@
+
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+*{
+box-sizing: content-box;
+    html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+  }
+    }
+}
+.col-md-3{
+    max-width: 250px;
+}
+/*VIRSUTINIO PUSLAPIO BACKGROUNDAS*/
+.navbar{
+    background-image: url("../images/shouzhu-1942376.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 120px;
+    padding-top: 100px;
+}
+/*CIA VIDINIO PUSLAPIO BACKGROUNDAS*/
+.container-about{
+    background:linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),rgba(0,0,0,0.55) url("../images/virsutinis_baneris.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 300px;
+    max-width: auto;
+    font-family:Nunito Sans, sans-serif;
+    color:#ffffff;
+    font-size: 18px;
+    padding:30px;
+    text-align: center;
+    }
+/* CIA MENIU NAVIGACIJOS BARAS*/
+.top-header { 
+    background-color: #e8dfd6; !important;
+    display: inline-flex !important;
+    align-items: center;
+    height: auto;
+    width: 100%;
+}
+.logo{
+   padding-left: 5vw;
+    padding-bottom: 5px;
+    padding-top: 3px;
+}
+.w3-bar { 
+    display: inline-flex;
+    justify-content: flex-end;
+}
+.w3-button {
+    font-size: 20px;
+    color: black; !important;/*nedirba sitas*/
+    text-transform: uppercase;
+    font-family: Montserrat,sans-serif;
+    font-weight: 400;
+    padding-right: 15px !important;
+    text-decoration: none !important;
+}
+.w3-bar a:hover {
+    color: white; !important;
+}
+.w3-bar-block{
+    background-color: white;!important; 
+}
+
+h2{
+  font-family: Montserrat; 
+  font-size: 25px;  
+}
+/*PATS VIRSUS ANTRASTES TEKSTAS*/
+.kas{
+  font-size: 25px;
+   display:inline-block;
+    font-family: Montserrat;
+    color: white;
+}
+h1{
+    font-size: 60px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.button{
+    background-color:#10c9c3;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center; 
+    font-family: Montserrat;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+.button:hover{
+    color: #dcb3b6;
+}
+.about {
+  font-size: 20px;
+   text-align: center; 
+   align-items: center;
+ padding-bottom: 50px;
+}
+/*PROGRESS BAR IR FOTO IR TEKSTU "NAUDOJAMOS MEDZIAGOS"*/
+#medziagos{
+    text-align: center;
+}
+.container-skills{
+    background-color: red;
+}
+/*RAIDES VIRS JUDANCIU LINIJU*/
+.skillsTop {
+	float: left;
+	clear: right;
+	width: 100%;
+	margin: 3px;
+  font-family: Nunito Sans, sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 200;
+}
+/*JUDANCIOS LINIJOS*/
+.skillsBottom {
+	float: left;
+	clear: right;
+	width: 100%;
+	margin: 3px 0px 0px 0px;
+}
+.skillsf{
+    padding-top: 70px;
+    padding-bottom:0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-bottom: 50px;
+}
+.container-skills{
+    align-items: baseline;
+}
+}/*CIA NESIREGULIUOJA LINIJU PLOTIS*/
+.progress {
+	background: grey;
+	height:2px; 
+  -moz-box-shadow: 0 1px 0px #bebbb9 inset, 0 1px 0 #fcfcfc;
+  -webkit-box-shadow: 0 1px 0px #bebbb9 inset, 0 1px 0    #fcfcfc;	 
+	box-shadow: 0 1px 0px #bbbbbb inset, 0 1px 0 #fcfcfc;	  
+}
+.progress-bar {
+  background-image: -webkit-linear-gradient(left, #dcb3b6 0%,
+    #10c9c3 100%);
+  background-image: -moz-linear-gradient(left, #dcb3b6 0%,
+    #10c9c3 100%);
+  background-image: -o-linear-gradient(left, #dcb3b6 0%,
+    #10c9c3 100%);
+  background-image: linear-gradient(to right, #dcb3b6 0%,
+    #10c9c3 100%);	
+}
+.akmenys, .oda, .karoliukai, .sidabras, .varis, .tekstile, .emale{
+ 	-webkit-transition: width 3.50s ease !important;
+ 	-moz-transition: width 3.50s ease !important;
+   	-o-transition: width 3.50s ease !important;
+   	transition: width 3.50s ease !important;
+ }
+/**CIA GALERIJOS FOTO NUSTATYMAI**/
+li {
+  list-style:none;
+}
+ul li img {
+  list-style-type: none;
+    display: flex;
+    justify-content: space-between; 
+}
+
+
+/* LIGHTBOX */
+#lightbox { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA9JREFUeNpiYGBg2AwQYAAAuAC01qHx9QAAAABJRU5ErkJggg==) repeat; }
+/*#lightbox p { text-align: right; color: #fff; margin-right: 20px; font-size: 12px; }*/
+#lightbox img { 
+    max-width: 100%; 
+    max-height: 100%
+}
+
+/* slideshow styles */
+#slideshow { position: relative; z-index: 100; width: 560px; height: 480px; margin: 0 auto; padding: 10px; background-color: #fff; box-shadow: 0 0 20px rgba(0,0,0,0.4); }
+#slideshow ul > li { position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; list-style: none; }
+.nav { display: none; }
+.prev, .next { position: absolute; top: 50%; background: rgba(100, 100, 100, .5); padding: .25em .5em; color: #fff; text-decoration: none; }
+.next { right: 10px; }
+.prev { left: 10px; }
+
+/*LOAD MORE*/
+.galerija2, .galerija3{
+ display:none;   
+}
+.totop {
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+}
+.totop a {
+    display: none;
+}
+a, a:visited {
+    color: #33739E;
+    text-decoration: none;
+    display: block;
+    margin: 10px 0;
+}
+a:hover {
+    text-decoration: none;
+}
+#loadMore {
+    padding: 10px;
+    width: 190px;
+    background-color: #10c9c3;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 25px;
+    color: #fff;
+    font-family: Montserrat, sans-serif;
+   border-radius: 5px;
+    transition: all 600ms ease-in-out;
+    -webkit-transition: all 600ms ease-in-out;
+    -moz-transition: all 600ms ease-in-out;
+    -o-transition: all 600ms ease-in-out;
+}
+#loadMore:hover {
+    background-color: #fff;
+    color: #dcb3b6;
+}
+/*SLIDERIS*/
+.slydeshow-container {
+  max-width: 1170px;
+  position: relative;
+  margin: auto;
+  height: 420px;
+  background-color: #10c9c3;
+}
+.yourSlydes {
+    display: none;
+}
+.previous, .yournext {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+.yournext {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.previous:hover, .yournext:hover {
+  background-color: rgba(0,0,0,0.5);
+}
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}*/
+}
+/*SKILTIS IKONELES MELSVAM FONE*/
+.ikoneles{
+    height: 270px;
+    background-color: #10c9c3;
+    display: flex;
+    justify-content:space-around;
+    margin:0;
+    font-family: Montserrat;
+    font-size: 13px; 
+    color:white;
+    text-transform: uppercase;
+    height: 270px;
+    text-align: center;
+    align-items: center; 
+}
+.ikoneles i{
+  font-size: 60px;
+  align-items: center;
+    padding top:70px;
+}
+.container-ikoneles{
+    background-color: #10c9c3;
+}
+/*CIA STATUS BAR SKAICIUKAI*/
+.count-title { font-size: 40px; font-weight: normal;  margin-top: 10px; margin-bottom: 0; text-align: center; }
+.count-text { font-size: 13px; font-weight: normal;  margin-top: 10px; margin-bottom: 0; text-align: center; }
+/*CIA YRA VIDEO*/
+.procesas{
+    font-family:Nunito Sans; 
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    height: 260px;
+}
+#vid{
+    padding-bottom: 50px;
+}
+/*CIA YRA IKONOS ANT PILKO FONO*/
+.container-paslaugos{
+   background-color: #f8f9f9;
+}
+.container-paslaugos1{
+    background-color: #f8f9f9;    
+}
+.paslaugos{
+    height: 270px;
+    padding-top: 50px;
+    align-items: center;
+    text-align: center;
+}
+.paslaugos i{
+    font-size: 50px;
+    align-items: center;
+}
+.paslaugos h4 {
+    text-transform: uppercase;;
+}
+.paslaugos1{
+    background-color: #f8f9f9;
+    height: 270px;
+    padding-top: 50px;
+    align-items: center;
+    text-align: center;
+}
+.paslaugos1 i{
+   font-size: 50px;
+    align-items: center; 
+}
+.paslaugos1 h4{
+    text-transform: uppercase;
+}
+/*KLIENTU LOGOTIPAI*/
+
+.klientai {
+    text-align: center;
+}
+.klientai ul {
+    /height: 200px;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.klientai img {
+    width: 15vw;
+}
+.container-klientai{
+    padding-left: 0; !important;
+    padding-right: 0; !important;
+}
+/*KONTAKTINE FORMA*/
+
+.container-laiskas{
+    max-width: 1170px;
+    background-color:#10c9c3; 
+}
+.contact-form{
+  font-family: 'Montserrat', sants seriff;
+  font-size:100px;
+  color: rgba(255, 255, 255, 1);
+  background-color: #10c9c3; ;
+  text-align: center;
+ font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+}
+.contact-form {
+  max-width: 1170px;
+  /*width: 100%;*/
+  margin: 0 auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-family:  'Montserrat', sants serif;
+  font-size:20px;
+}
+label {
+  font-weight: 300;
+  cursor: pointer;
+}
+textarea,
+input {
+  border: none;
+  outline: none;
+  border-radius: 0;
+  text-align: center;
+  background: none;
+  font-weight: 700;
+  font-family: 'Lato', georgia;
+  font-size: 25px;
+  color: rgba(255, 255, 255, 1);
+  max-width: 90%;
+  padding: 1rem;
+  border: 2px dashed rgba(255, 255, 255, 0);
+  box-sizing: border-box;
+  cursor: text;
+}
+textarea {
+  text-align: left;
+  /* overflow:hidden; */ 
+  resize: none;
+  width: 90%;
+  border-color: rgba(255, 255, 255, 0)
+}
+textarea:focus {
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 2px dashed rgba(255, 255, 255, 1);
+}
+textarea:focus:required:valid {
+  border: 2px solid rgba(255, 255, 255, 0);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+}
+textarea:required:valid {
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+}
+input {
+  border-bottom: 2px dashed rgba(255, 255, 255, 0.5);
+}
+input:required,
+textarea:required {
+  border-bottom: 2px dashed rgba(255, 255, 255, 0.5);
+}
+input:focus {
+  border-bottom: 2px dashed rgba(255, 255, 255, 1);
+  background-color: rgba(255, 255, 255, 0.2);
+}
+input:required:valid {
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+}
+input:required:invalid {
+  color: rgba(255, 255, 255, 0.5);
+}
+::-webkit-input-placeholder {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.4);
+  font-style: italic;
+  font-weight: 400;
+}
+:-moz-placeholder {
+  /* Firefox 18- */ 
+  text-align: center;
+  color: rgba(255, 255, 255, 0.4);
+  font-style: italic;
+  font-weight: 400;
+}
+::-moz-placeholder {
+  /* Firefox 19+ */
+  
+  text-align: center;
+  color: rgba(255, 255, 255, 0.4);
+  font-style: italic;
+  font-weight: 400;
+}
+:-ms-input-placeholder {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.4);
+  font-style: italic;
+  font-weight: 400;
+}
+.expanding {
+  vertical-align: top;
+}
+.send-icn {
+  fill: rgba(255, 255, 255, 1)
+}
+
+.send-icn:hover {
+  fill: rgba(0, 0, 0, 1);
+  cursor: pointer;
+}
+button{
+  background: none;
+  border: none;
+  outline: none;
+  margin: 2vmax;
+}
+button:hover small {
+  opacity: 1;
+}
+small {
+  display: block;
+  opacity: 0;
+}
+/*FOOTER */
+.container-footer{
+    background-color: #e8dfd6;
+    height: auto;
+    font-family: Monserrat, sans-serif;
+    color: black;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    margin-left: 0;
+    margin-right: 0;
+}
+@media only screen and (max-width: 700px){
+
+    #imageSet{
+        margin: 0;
+        padding-left: 0;
+    }
+    .galerija{
+        padding: 0;
+        margin: 0;
+    }
+}
+/*CIA IS ABOUT*/
+.turinys-container{
+    height: auto;
+    background-color: #f8f9f9;
+    text-align: center;
+    font-family:Nunito Sans, sans-serif;
+    font-size: 20px;
+    padding-bottom: 50px;
+  
+}
+.indre{
+padding-right: 0px;
+    padding-left: 0px;
+}
+.container-reikia{
+ font-family:Nunito Sans, sans-serif;
+ font-size: 20px; 
+ height: 400px;
+ text-align: center;
+padding-top: 100px;
+}
