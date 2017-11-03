@@ -1,3 +1,3 @@
 # Jevbizu
-Handmade jewerly studio page
-This project a porfolio.
+This project is Handmade jewerly studio porfolio.
+
